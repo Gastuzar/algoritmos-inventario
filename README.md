@@ -40,12 +40,12 @@ www.youtube.com/
 - Este trabajo permitió aplicar la teoría de búsqueda y ordenamiento a un caso práctico, reforzando conceptos clave y evaluando la eficiencia de cada algoritmo en un entorno simulado.
 
 ## ▶️ Cómo ejecutar
-1. Asegurate de tener Python instalado (versión 3.x).
+1. Iniciar Vscode.
 2. Colocá en la misma carpeta:
    - `main.py`
    - `busqueda.py`
    - `ordenamiento.py`
-   - `inventario_productos.csv` o `productos_aleatorios.csv`
+   - `inventario_productos.csv`
 3. Abrí una terminal y ejecutá:
 
 ```bash
