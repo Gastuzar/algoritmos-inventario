@@ -30,3 +30,4 @@ def guardar_productos_csv(productos, ruta):
         writer.writerow(['ID', 'Nombre', 'Stock', 'Precio'])
         for p in productos:
             writer.writerow([p.id, p.nombre, p.stock, p.precio])
+
