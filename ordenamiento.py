@@ -1,6 +1,5 @@
 import csv
 
-ruta = "inventario_productos.csv"
 class Producto:
     def __init__(self, id, nombre, stock, precio):
         self.id = id
