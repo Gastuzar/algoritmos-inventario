@@ -4,7 +4,8 @@
 #Ordenar los productos por precio o por stock.
 #Comparar algoritmos de ordenamiento por eficiencia.
 from busqueda import busqueda_lineal, busqueda_binaria, bubble_sort, quick_sort
-from ordenamiento import guardar_productos_csv
+from ordenamiento import guardar_productos_csv, cargar_productos_csv, Producto
+
 import time
 
 
@@ -26,6 +27,9 @@ def mostrar_menu():
 
 def main():
     """Función principal del programa."""
+    ruta = "algoritmos-inventario/inventario_productos.csv"
+    productos = cargar_productos_csv(ruta)
+
     while True:
         mostrar_menu()
         
