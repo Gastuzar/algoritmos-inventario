@@ -12,7 +12,7 @@ class Producto:
         return f"{self.id} - {self.nombre} | Stock: {self.stock} | ${self.precio}"
 def cargar_productos_csv(ruta):
     productos = []
-    with open(ruta, newline='') as file:
+    with open(ruta, newline='', encoding="utf-8") as file:
         reader = csv.DictReader(file)
         for row in reader:
             producto = Producto(
@@ -25,7 +25,7 @@ def cargar_productos_csv(ruta):
     return productos
 
 def guardar_productos_csv(productos, ruta):
-    with open(ruta, mode='w', newline='') as file:
+    with open(ruta, mode='w', newline='', encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(['ID', 'Nombre', 'Stock', 'Precio'])
         for p in productos:
