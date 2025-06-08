@@ -14,17 +14,17 @@ Está pensado como un caso práctico para aplicar conocimientos de algoritmos, a
 www.youtube.com/
 
 ## 🚀 Funcionalidades
-- ✅ Carga de productos desde archivo `inventario_productos.csv` o `productos_aleatorios.csv`
+- ✅ Carga de productos desde archivo `inventario_productos.csv`
 - ✅ Búsqueda de productos por nombre con:
   - Búsqueda Lineal
-  - Búsqueda Binaria (requiere orden previo)
+  - Búsqueda Binaria
 - ✅ Ordenamiento de productos por:
   - Precio (Bubble Sort)
   - Stock (Quick Sort)
 - ✅ Medición del tiempo de ejecución de cada algoritmo
-- ✅ Guardado de resultados ordenados en archivos CSV (`ordenado_precio.csv`, `ordenado_stock.csv`)
+- ✅ Guardado de resultados ordenados en archivos CSV (`ordenado.csv`), sobreescribiendo el archivo dependiendo de la busqueda que se realice
 - ✅ Interfaz por menú en consola para interacción clara
-- ✅ Código modular, separado en archivos `main.py`, `ordenamiento.py`, y `busqueda.py`
+- ✅ Código modular, separado en archivos `main.py`, `ordenamiento.py`, y `busqueda.py` ademas de los archivos csv correspondientes
 
 ## 🐍 Tecnologías
 - 🐍 **Python 3.13.0**
@@ -35,7 +35,7 @@ www.youtube.com/
   - **Búsqueda binaria**: O(log n)
   - **Bubble sort**: O(n²)
   - **Quick sort**: O(n log n)
-  - 
+
 ## 🎓 Reflexión
 - Este trabajo permitió aplicar la teoría de búsqueda y ordenamiento a un caso práctico, reforzando conceptos clave y evaluando la eficiencia de cada algoritmo en un entorno simulado.
 
@@ -46,7 +46,9 @@ www.youtube.com/
    - `busqueda.py`
    - `ordenamiento.py`
    - `inventario_productos.csv`
+   - `ordenado.csv`
 3. Abrí una terminal y ejecutá:
 
 ```bash
 python main.py
+
