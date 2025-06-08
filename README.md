@@ -1,3 +1,8 @@
+## 👥 Integrantes - Comisión 5
+
+Gaston Zarate - Gastonzarate25@gmail.com
+Nahuel Romero - nahuelromero43@outlook.es
+
 # Inventario con búsqueda y ordenamiento en Python
 
 ## 📌 Descripción
@@ -5,6 +10,8 @@ Este proyecto simula un **sistema de inventario de productos**, enfocado en apli
 
 Está pensado como un caso práctico para aplicar conocimientos de algoritmos, análisis de eficiencia y estructuras de datos en Python.
 
+🔗Link de video
+www.youtube.com/
 
 ## 🚀 Funcionalidades
 - ✅ Carga de productos desde archivo `inventario_productos.csv` o `productos_aleatorios.csv`
