@@ -14,11 +14,10 @@ Este proyecto simula un sistema de inventario para una tienda, aplicando distint
 - Python 3
 - time (para medir tiempos)
 - random (para generar datos)
-
-## ▶️ Cómo ejecutar
-```bash
-python main.py
-
 ## 🎓 Reflexión
 - Este trabajo permitió aplicar la teoría de búsqueda y ordenamiento a un caso práctico, reforzando conceptos clave y evaluando la eficiencia de cada algoritmo en un entorno simulado.
+## ▶️ Cómo ejecutar
 
+```bash
+python main.py
+```
