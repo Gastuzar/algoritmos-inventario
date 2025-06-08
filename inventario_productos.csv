@@ -1,51 +1,50 @@
 ID,Nombre,Stock,Precio
-1000,Zapatillas,33,8321
-1001,Producto2,63,1436
-1002,Producto3,28,6280
-1003,Producto4,9,8148
-1004,Producto5,20,6653
-1005,Producto6,5,6118
-1006,Producto7,3,1108
-1007,Producto8,89,7468
-1008,Producto9,59,2321
-1009,Producto10,57,9520
-1010,Producto11,50,8243
-1011,Producto12,10,8331
-1012,Producto13,3,7917
-1013,Producto14,22,2756
-1014,Producto15,37,1673
-1015,Producto16,71,6267
-1016,Producto17,91,1416
-1017,Producto18,22,3960
-1018,Producto19,37,7045
-1019,Producto20,56,6098
-1020,Producto21,48,9075
-1021,Producto22,20,3099
-1022,Producto23,95,3929
-1023,Producto24,34,5895
-1024,Producto25,59,4686
-1025,Producto26,62,9323
-1026,Producto27,10,2253
-1027,Producto28,100,3077
-1028,Producto29,25,6083
-1029,Producto30,4,6231
-1030,Producto31,88,9630
-1031,Producto32,1,5918
-1032,Producto33,94,2171
-1033,Producto34,70,6554
-1034,Producto35,9,8143
-1035,Producto36,56,6323
-1036,Producto37,98,2834
-1037,Producto38,37,5417
-1038,Producto39,14,8845
-1039,Producto40,20,4458
-1040,Producto41,60,7918
-1041,Producto42,36,2763
-1042,Producto43,7,3572
-1043,Producto44,98,1496
-1044,Producto45,21,3831
-1045,Producto46,13,8876
-1046,Producto47,87,2679
-1047,Producto48,46,8186
-1048,Producto49,77,6548
-1049,Producto50,41,6331
+1000,Camiseta,44,6202
+1001,Pantalón,19,6792
+1002,Zapatos,7,6412
+1003,Yerba,88,4756
+1004,Azúcar,22,5094
+1005,Arroz,74,4223
+1006,Aceite,76,6103
+1007,Fideos,70,920
+1008,Detergente,56,7779
+1009,Galletitas,98,7757
+1010,Harina,50,3513
+1011,Lentejas,29,8807
+1012,Shampoo,80,9349
+1013,Acondicionador,49,7977
+1014,Papel higiénico,65,7092
+1015,Jabón líquido,46,946
+1016,Queso,12,5850
+1017,Leche,89,4144
+1018,Café,22,5176
+1019,Té,66,5963
+1020,Huevos,100,4803
+1021,Manteca,100,6741
+1022,Pan lactal,31,9247
+1023,Yogur,83,1508
+1024,Tomate en lata,18,917
+1025,Agua mineral,68,1019
+1026,Jugo en polvo,45,7339
+1027,Jugo natural,80,2719
+1028,Sal fina,99,1766
+1029,Sal gruesa,60,6805
+1030,Cereal,67,7986
+1031,Cacao,80,7658
+1032,Ropa interior,20,752
+1033,Remera manga larga,71,8213
+1034,Buzo,51,8162
+1035,Campera,67,8161
+1036,Ropa de cama,38,2087
+1037,Toalla,63,1321
+1038,Servilletas,14,4338
+1039,Trapo de piso,51,7053
+1040,Lavandina,63,8474
+1041,Desodorante,12,8750
+1042,Crema dental,18,8189
+1043,Cepillo de dientes,95,6642
+1044,Pan rallado,41,1068
+1045,Mermelada,18,7559
+1046,Miel,85,6430
+1047,Atún en lata,60,1422
+1048,Gaseosa,81,3465

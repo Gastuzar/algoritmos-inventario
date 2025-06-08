@@ -1,8 +1,9 @@
 ## Sistema de inventario de productos ##
-#Leer un archivo CSV con los productos.
-#Buscar productos por nombre o ID.
-#Ordenar los productos por precio o por stock.
-#Comparar algoritmos de ordenamiento por eficiencia.
+#Leer un archivo CSV con los productos.(ya esta hecho)
+#Buscar productos por nombre o ID.(ya esta hecho)
+#Ordenar los productos por precio o por stock.(ya esta hecho)
+#Comparar algoritmos de ordenamiento por eficiencia.(no se si lo haremos o no pero podemos ir viendo)
+#hay que pulirlo y dejarlo bonito, pero ya tenemos la base
 from busqueda import busqueda_lineal, busqueda_binaria, bubble_sort, quick_sort
 from ordenamiento import guardar_productos_csv, cargar_productos_csv, Producto
 
