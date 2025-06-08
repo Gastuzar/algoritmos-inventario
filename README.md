@@ -18,3 +18,7 @@ Este proyecto simula un sistema de inventario para una tienda, aplicando distint
 ## ▶️ Cómo ejecutar
 ```bash
 python main.py
+
+## 🎓 Reflexión
+- Este trabajo permitió aplicar la teoría de búsqueda y ordenamiento a un caso práctico, reforzando conceptos clave y evaluando la eficiencia de cada algoritmo en un entorno simulado.
+
