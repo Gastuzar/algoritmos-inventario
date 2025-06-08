@@ -1,20 +1,23 @@
 # Búsqueda lineal por nombre
 def busqueda_lineal(productos, nombre_buscado):
+    nombre_buscado = nombre_buscado.lower()
     for producto in productos:
-        if producto.nombre == nombre_buscado:
+        if producto.nombre.lower() == nombre_buscado:
             return producto
     return None
 
 # Búsqueda binaria (requiere lista ordenada por nombre)
 def busqueda_binaria(productos, nombre_buscado):
-    productos.sort(key=lambda x: x.nombre)  # Asegura ordenamiento
+    nombre_buscado = nombre_buscado.lower()
+    productos.sort(key=lambda x: x.nombre.lower())  # Ordenar ignorando mayúsculas/minúsculas
     izq = 0
     der = len(productos) - 1
     while izq <= der:
         medio = (izq + der) // 2
-        if productos[medio].nombre == nombre_buscado:
+        nombre_medio = productos[medio].nombre.lower()  # Normalizo a minúsculas
+        if nombre_medio == nombre_buscado:
             return productos[medio]
-        elif productos[medio].nombre < nombre_buscado:
+        elif nombre_medio < nombre_buscado:
             izq = medio + 1
         else:
             der = medio - 1

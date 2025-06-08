@@ -28,7 +28,7 @@ def mostrar_menu():
 
 def main():
     """Función principal del programa."""
-    ruta = "algoritmos-inventario/inventario_productos.csv"
+    ruta = "inventario_productos.csv"
     productos = cargar_productos_csv(ruta)
 
     while True:
@@ -38,7 +38,7 @@ def main():
         
         if opcion == '1':
             print("\n" + "="*50)
-            nombre = input("Nombre del producto a buscar: ")
+            nombre = input("Nombre del producto a buscar: ").strip()
             inicio = time.perf_counter()
             resultado = busqueda_lineal(productos, nombre)
             fin = time.perf_counter()
