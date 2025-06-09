@@ -11,7 +11,7 @@ Este proyecto simula un **sistema de inventario de productos**, enfocado en apli
 Está pensado como un caso práctico para aplicar conocimientos de algoritmos, análisis de eficiencia y estructuras de datos en Python.
 
 🔗Link de video
-www.youtube.com/
+https://www.youtube.com/watch?v=BfF1tXyxVvA
 
 ## 🚀 Funcionalidades
 - ✅ Carga de productos desde archivo `inventario_productos.csv`
