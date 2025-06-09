@@ -9,7 +9,8 @@ def busqueda_lineal(productos, nombre_buscado):
 # Búsqueda binaria (requiere lista ordenada por nombre)
 def busqueda_binaria(productos, nombre_buscado):
     nombre_buscado = nombre_buscado.lower()
-    productos.sort(key=lambda x: x.nombre.lower())  # Ordenar ignorando mayúsculas/minúsculas
+    #esta función asume que la lista de productos ya está ordenada por nombre
+    productos = sorted(productos, key=lambda x: x.nombre.lower())  # Ordenar ignorando mayúsculas/minúsculas
     izq = 0
     der = len(productos) - 1
     while izq <= der:

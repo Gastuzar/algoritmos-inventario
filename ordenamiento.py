@@ -1,5 +1,7 @@
 import csv
 
+# Clase Producto nos permite crear objetos de tipo Producto con atributos id, nombre, stock y precio.
+#facilitando la manipulación de los datos de los productos.
 class Producto:
     def __init__(self, id, nombre, stock, precio):
         self.id = id

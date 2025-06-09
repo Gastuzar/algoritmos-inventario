@@ -2,6 +2,7 @@ from busqueda import busqueda_lineal, busqueda_binaria, bubble_sort, quick_sort
 from ordenamiento import guardar_productos_csv, cargar_productos_csv, Producto
 
 import time
+#la biblioteca os es para manejar rutas de archivos, usamos .path.exists para verificar si el archivo existe
 import os
 
 ruta = "inventario_productos.csv"
@@ -51,6 +52,7 @@ def main():
         elif opcion == '1':
             print("\n" + "="*50)
             nombre = input("Nombre del producto a buscar: ").strip().lower()
+            #time.perf_counter() se usa para medir el tiempo de ejecución
             inicio = time.perf_counter()
             resultado = busqueda_lineal(productos, nombre)
             fin = time.perf_counter()
