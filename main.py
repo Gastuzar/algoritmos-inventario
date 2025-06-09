@@ -32,25 +32,25 @@ def main():
     while True:
         mostrar_menu()
         
-        opcion = input("Selecciona una opción: ").upper().strip()
+        opcion = input("Selecciona una opción: ").strip()
         
 
         if opcion == '0':
-           print("\n"+"="*50)
-           print("Inventario de Productos:")
+            print("\n"+"="*50)
+            print("Inventario de Productos:")
 
-           if os.path.exists(ruta2):
-               productos_para_mostrar = cargar_productos_csv(ruta2)
-           else:
-               productos_para_mostrar = cargar_productos_csv(ruta)
+            if os.path.exists(ruta2):
+                productos_para_mostrar = cargar_productos_csv(ruta2)
+            else:
+                productos_para_mostrar = cargar_productos_csv(ruta)
 
-           for producto in productos_para_mostrar:
-               print(f"{producto.id} - {producto.nombre} - Precio: ${producto.precio} - Stock:{producto.stock}")
-           print("="*50)
+            for producto in productos_para_mostrar:
+                print(f"{producto.id} - {producto.nombre} - Precio: ${producto.precio} - Stock:{producto.stock}")
+            print("="*50)
 
         elif opcion == '1':
             print("\n" + "="*50)
-            nombre = input("Nombre del producto a buscar: ").strip()
+            nombre = input("Nombre del producto a buscar: ").strip().lower()
             inicio = time.perf_counter()
             resultado = busqueda_lineal(productos, nombre)
             fin = time.perf_counter()
